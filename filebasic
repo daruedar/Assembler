@@ -1,0 +1,8 @@
+debug
+r
+a
+mov ah,8
+add ah,3
+sub ah,4
+int 20
+g108 //ejecuta las instrucciones desde que inicia el comando a hasta la direccion que le pase como parametro
